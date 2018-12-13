@@ -1,0 +1,28 @@
+//Ques 1:
+
+var i;
+for (i=0;i<=255;i++)
+{
+  console.log(i);
+}
+
+//Ques 2: Get Even 1000
+var i;
+for (i=0;i<=1000;i++)
+{
+  if(i%2==0)
+  console.log(i);
+}
+
+//Ques 3 Sum odd 5000
+var i;
+var final=0;
+for (i=0;i<=3000;i++)
+{
+  if(i%2!=0)
+  {
+    final=final+i;
+  }
+
+}
+console.log(final);
